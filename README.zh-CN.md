@@ -451,3 +451,8 @@
 - [Clinical-Pharmacy-Saarland-University/RTutorial](https://github.com/Clinical-Pharmacy-Saarland-University/RTutorial) `(R Markdown | 德英)` — 德国萨尔大学临床药学与定量药理 R 语言数据分析教学教程。
 - [Kalo0m/pharmacocinetique](https://github.com/Kalo0m/pharmacocinetique) `(TS | 法文)` — 法国兽医/药学专业学生开发的药代动力学基础概念学习与计算 Web 应用。
 - [douglasufs/matematica-aplicada-ciencias-farmaceuticas](https://github.com/douglasufs/matematica-aplicada-ciencias-farmaceuticas) `(OER | 葡萄牙文)` — 巴西联邦大学药学应用数学开放教材，包含稀释计算、生物等效性与计算药动学脚本。
+---
+
+## 免责声明
+
+本仓库系个人基于公开 GitHub 开源项目独立整理的资源索引，仅供信息参考与学习交流。所有整理内容与观点仅代表个人，不代表雇主或任何关联机构的立场。收录某一仓库不构成对相关软件、机构或临床给药方法的背书、验证或推荐，亦不构成任何医疗或监管建议。使用任何收录项目前，请自行核查其开源协议、验证状态及合规要求。

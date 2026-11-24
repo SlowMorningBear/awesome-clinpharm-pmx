@@ -451,3 +451,8 @@
 - [Clinical-Pharmacy-Saarland-University/RTutorial](https://github.com/Clinical-Pharmacy-Saarland-University/RTutorial) `(R Markdown | DE/EN)` — Structured R tutorials for clinical pharmacy and pharmacometrics data analysis from Saarland University.
 - [Kalo0m/pharmacocinetique](https://github.com/Kalo0m/pharmacocinetique) `(TS | French)` — French-language educational web app for learning and calculating fundamental pharmacokinetics concepts.
 - [douglasufs/matematica-aplicada-ciencias-farmaceuticas](https://github.com/douglasufs/matematica-aplicada-ciencias-farmaceuticas) `(OER | Portuguese)` — Portuguese OER textbook covering pharmaceutical math, dilution, bioequivalence, and computational pharmacokinetics.
+---
+
+## Disclaimer
+
+This repository is a personal, independent curation of publicly available open-source GitHub repositories compiled for informational and educational purposes only. All views and selections are solely my own and do not represent those of my employer or any affiliated organization. Inclusion of a repository does not constitute an endorsement, validation, or recommendation of any software, vendor, or clinical dosing methodology, nor does it constitute medical or regulatory advice. Users are responsible for reviewing each repository's license, validation status, and regulatory compliance before use.
