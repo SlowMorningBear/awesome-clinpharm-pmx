@@ -2,7 +2,7 @@
 
 [English](README.md) | **简体中文**
 
-> 面向**临床药代动力学（Clinical Pharmacokinetics）**、**定量药理学（Pharmacometrics）**以及 **AI × ClinPharm/PMx** 的多语种开源工具目录。不以 Star 数为门槛，按解决的具体科学或工程问题归类，覆盖英、中、日、韩、德、法、西、葡、意等全球生态（v2.0 收录 **343** 个经核验开源仓库，零重复）。
+> 面向**临床药代动力学（Clinical Pharmacokinetics）**、**定量药理学（Pharmacometrics）**以及 **AI × ClinPharm/PMx** 的多语种开源工具目录。不以 Star 数为门槛，按解决的具体科学或工程问题归类，覆盖英、中、日、韩、德、法、西、葡、意等全球生态（v2.0 收录 **335** 个经核验开源仓库，零重复）。
 
 ---
 
@@ -46,22 +46,19 @@
 - [nlmixr2/babelmixr2](https://github.com/nlmixr2/babelmixr2) `(R)` — 将统一 `nlmixr2`/`rxode2` 模型转译并在 NONMEM、Monolix、PKNCA、PopED 上运行。
 - [nlmixr2/nonmem2rx](https://github.com/nlmixr2/nonmem2rx) `(R/C)` — 将 NONMEM 控制流及估计结果解析并转换为 `rxode2`/`nlmixr2` 模型。
 - [nlmixr2/monolix2rx](https://github.com/nlmixr2/monolix2rx) `(R/C)` — 将 Monolix `.mlxtran` 模型与结果导入并转换为 `rxode2`/`nlmixr2` 对象。
-- [Andy0000000000/nonmem2mrgsolve](https://github.com/Andy0000000000/nonmem2mrgsolve) `(R)` — 自动将含全模型及 QSS TMDD 在内的 NONMEM 控制流翻译为高速 `mrgsolve` 代码。
 - [UUPharmacometrics/assemblerr](https://github.com/UUPharmacometrics/assemblerr) `(R)` — 通过模块化 R 组件编程式组装药动学模型并编译生成规范的 NONMEM 控制流。
 - [certara/R-Certara](https://github.com/certara/R-Certara) `(R)` — Certara 开源定量药理 R 工具套件的一键安装与统一加载元包（`Certara.R`）。
-- [certara/R-RsNLME](https://github.com/certara/R-RsNLME) `(R)` — 用可复现的 tidyverse R 脚本替代 GUI 操作调用 Phoenix NLME 引擎。
-- [certara/R-RsNLME-model-builder](https://github.com/certara/R-RsNLME-model-builder) `(R/Shiny)` — 可视化构建 NLME 模型并实时生成可复现 PML 与 `RsNLME` R 脚本的 Shiny 应用。
+- [certara/R-RsNLME-Examples](https://github.com/certara/R-RsNLME-Examples) `(R)` — 用可复现的 tidyverse R 脚本替代 GUI 操作调用 Phoenix NLME 引擎。
 - [MarcLavielle/Rsmlx](https://github.com/MarcLavielle/Rsmlx) `(R)` — “R Speaks Monolix”：在 R 中调用 Monolix 实现自动化建模、协变量筛选与收敛性评估。
 - [tsahota/NMproject](https://github.com/tsahota/NMproject) `(R)` — 将 RStudio 打造为管道式脚本化 NONMEM 建模开发环境，集成运行追踪与自动诊断。
 - [dpastoor/nonmemutils](https://github.com/dpastoor/nonmemutils) `(Go)` — 高速 Go 命令行工具集，用于解析 NONMEM `.lst` 输出文件与管理任务提交。
 - [Robterheine/nmgui2](https://github.com/Robterheine/nmgui2) `(Python/PyQt6)` — 跨平台纯 Python 桌面客户端（类 Pirana 替代），管理对比 NONMEM 模型并联动 PsN。
-- [OpenPKPD/OpenPKPD](https://github.com/OpenPKPD/OpenPKPD) `(Python)` — 面向将 NONMEM 工作流迁移至 Python 的开源平台，提供 `.ctl` 解析与输出复现。
 - [a2-ai/slurmtools](https://github.com/a2-ai/slurmtools) `(R)` — 在 R 定量药理环境中直接提交、监控和管理 Slurm HPC 集群任务。
 - [billdenney/Pharmacometrics-Docker](https://github.com/billdenney/Pharmacometrics-Docker) `(Docker)` — 标准化多版本 NONMEM（含 gfortran）与 PsN 的 Docker 容器化部署配置。
 - [kinginsun/nonmem](https://github.com/kinginsun/nonmem) `(Docker/Shell)` — 跨平台（Win/macOS Apple Silicon/Linux）NONMEM + PsN + MPICH 容器镜像与一键脚本。
 - [FelicienLL/runnonmem](https://github.com/FelicienLL/runnonmem) `(R)` — 轻量级 R 封装工具，用于从 R 脚本直接调用运行 NONMEM。
 - [s0521/nonmem_cn](https://github.com/s0521/nonmem_cn) `(TS | 中文)` — NONMEM 控制文件 VS Code 扩展，提供语法高亮、自动补全与中英双语注释提示。
-- [vrognas/nmtran](https://github.com/vrognas/nmtran) `(TS)` — 为 NMTRAN/NONMEM 控制流提供语言智能感知、实时诊断与悬停文档的 VS Code 扩展。
+- [vrognas/vrognas-nmtran](https://github.com/vrognas/vrognas-nmtran) `(TS)` — 为 NMTRAN/NONMEM 控制流提供语言智能感知、实时诊断与悬停文档的 VS Code 扩展。
 - [UUPharmacometrics/vim-nonmem](https://github.com/UUPharmacometrics/vim-nonmem) `(Vim)` — 专为 Vim/Neovim 打造的 NONMEM 控制流与模型文件语法高亮插件。
 - [nmusers/nm-mode](https://github.com/nmusers/nm-mode) `(Emacs Lisp)` — 极简风格 Emacs 主模式，提供 NONMEM 控制流语法高亮与编辑支持。
 - [TingjieGuo/MINGA](https://github.com/TingjieGuo/MINGA) `(Hugo/Shell | 中文)` — 面向中文用户的 NONMEM、PsN、Pirana 与 R 定量药理环境安装教程与脚本。
@@ -151,12 +148,9 @@
 - [UUPharmacometrics/xpose4](https://github.com/UUPharmacometrics/xpose4) `(R)` — 经典 NONMEM 建模辅助诊断包，基于 lattice 提供 GOF、VPC 与协变量筛选图。
 - [nlmixr2/xpose.nlmixr2](https://github.com/nlmixr2/xpose.nlmixr2) `(R)` — 将 `nlmixr2` 拟合对象桥接为标准 `xpose` 数据库对象以复用全套 `xpose` 诊断图。
 - [nlmixr2/nlmixr2plot](https://github.com/nlmixr2/nlmixr2plot) `(R)` — 面向 `nlmixr2` 模型拟合结果的原生 `ggplot2` 诊断图与 VPC 绘图包。
-- [certara/R-Xpose-NLME](https://github.com/certara/R-Xpose-NLME) `(R)` — 从 `Certara.RsNLME`/Phoenix NLME 输出构建 `xpose` 数据库对象（`Certara.Xpose.NLME`）。
 - [ggPMXdevelopment/ggPMX](https://github.com/ggPMXdevelopment/ggPMX) `(R)` — 跨 Monolix、NONMEM、`nlmixr2` 一键生成符合 ISoP 标准的申报级 GOF 诊断图与报告。
 - [metrumresearchgroup/pmplots](https://github.com/metrumresearchgroup/pmplots) `(R)` — 提供面向定量药理分析的标准化、申报级探索性与拟合优度诊断图表。
 - [certara/tidyvpc](https://github.com/certara/tidyvpc) `(R)` — 基于 `data.table` 的高速管道式 VPC 引擎，支持分箱、无分箱（AQR/LOESS）、pcVPC 与 BLQ。
-- [certara/R-VPCResults](https://github.com/certara/R-VPCResults) `(R/Shiny)` — 基于 `tidyvpc` 的交互式 VPC 配置与可复现绘图代码导出 Shiny 应用（`Certara.VPCResults`）。
-- [certara/R-ModelResults](https://github.com/certara/R-ModelResults) `(R/Shiny)` — 面向 NLME/NONMEM 结果的交互式 GOF 图表与表格定制 Shiny 应用（`Certara.ModelResults`）。
 - [ronkeizer/vpc](https://github.com/ronkeizer/vpc) `(R)` — 灵活的跨平台 R 语言 VPC 工具包，支持连续型、分类型与事件时间（TTE）视觉预测检验。
 - [UUPharmacometrics/ncappc](https://github.com/UUPharmacometrics/ncappc) `(R)` — 基于 NCA 暴露指标（$C_{max}$、$AUC$）对 PopPK/PD 模型执行后验预测检验（PPC）。
 - [pharmetheus/PMXForest](https://github.com/pharmetheus/PMXForest) `(R)` — 直接从 NONMEM `.cov`、PsN Bootstrap 或 SIR 输出自动生成含不确定性的协变量森林图。
@@ -165,7 +159,7 @@
 - [Novartis/xgxr](https://github.com/Novartis/xgxr) `(R)` — 诺华探索性图形（xGx）框架，提供标准化 PK/PD 与暴露-效应作图助手与草稿标注。
 - [metrumresearchgroup/pmtables](https://github.com/metrumresearchgroup/pmtables) `(R)` — 专为定量药理申报报告打造的 LaTeX/TeX 人口学、数据清单与参数估计表格生成器。
 - [certara/pmxpartabc](https://github.com/certara/pmxpartabc) `(R)` — 自动解析 NONMEM 运行目录与 YAML 配置，生成可直接申报的参数估计表（含 Bootstrap）。
-- [philipdelff/tracee](https://github.com/philipdelff/tracee) `(R)` — 自动为保存的图表嵌入源脚本路径、时间戳与元数据印记，保障监管级代码可追溯性。
+- [NMautoverse/tracee](https://github.com/NMautoverse/tracee) `(R)` — 自动为保存的图表嵌入源脚本路径、时间戳与元数据印记，保障监管级代码可追溯性。
 - [kylebaron/mrgsim.sa](https://github.com/kylebaron/mrgsim.sa) `(R)` — 面向 `mrgsolve` 模型的局部与序列参数敏感度分析及可视化扩展包。
 - [nlmixr2/nlmixr2rpt](https://github.com/nlmixr2/nlmixr2rpt) `(R)` — 基于 YAML 规范自动将 `nlmixr2` 拟合结果生成结构化 Word 与 PPT 定量药理报告。
 - [john-harrold/ruminate](https://github.com/john-harrold/ruminate) `(R/Shiny)` — 整合数据整理、绘图、PKNCA、`rxode2` 仿真与 Office 报告导出的低代码 Shiny 工作台。
@@ -393,7 +387,6 @@
 - [karneslab/warfarin-machinelearning](https://github.com/karneslab/warfarin-machinelearning) `(R)` — 结合 CYP2C9/VKORC1 药物基因组学与临床协变量预测华法林维持剂量的机器学习代码。
 - [lucis-e/PopPBPK-RL_Bnzpril](https://github.com/lucis-e/PopPBPK-RL_Bnzpril) `(Python/R)` — 将群体 PBPK 与强化学习（RL）结合，在肾损伤虚拟队列中优化贝那普利精准给药。
 - [FatemehRabie/chemotherapy](https://github.com/FatemehRabie/chemotherapy) `(Python)` — 将 3D 肿瘤 PDE 仿真器与 Gymnasium/SB3 结合，利用物理引导深度强化学习优化个体化化疗方案。
-- [sumanabasu/On-the-Challenges-of-using-Reinforcement-Learning-in-Precision-Drug-Dosing-Delay-and-Prolongedness](https://github.com/sumanabasu/On-the-Challenges-of-using-Reinforcement-Learning-in-Precision-Drug-Dosing-Delay-and-Prolongedness) `(Python)` — 研究并基准评测药物 PK/PD 延迟与长效作用给强化学习精准给药带来的非马尔可夫挑战。
 - [ZhiGroup/PK-RNN](https://github.com/ZhiGroup/PK-RNN) `(Python)` — 利用电子病历纵向给药与检验数据动态预测万古霉素血药浓度的循环神经网络（PK-RNN-V）。
 - [BingyuMao/vanco_2cm](https://github.com/BingyuMao/vanco_2cm) `(Python)` — 将自回归 RNN 与机理二室 PK 预测头融合的混合模型（PKRNN-2CM），实现可解释万古霉素动态预测。
 - [Yunwoolee17/Vancomycin_prediction_AI](https://github.com/Yunwoolee17/Vancomycin_prediction_AI) `(Python | 韩国)` — 融合多种树模型与 SHAP 可解释性预测万古霉素达标 AUC 起始剂量的机器学习流水线。
@@ -440,7 +433,6 @@
 - [mindrank-ai/PharmaBench](https://github.com/mindrank-ai/PharmaBench) `(Python/Data)` — 基于大模型挖掘清洗构建的综合性 ADMET 与药动学基准数据集（吸收、PPB、BBB、CYP、清除率）。
 - [isop-phmx/awesome-pharmacometrics](https://github.com/isop-phmx/awesome-pharmacometrics) `(Markdown)` — 国际定量药理学会（ISoP）维护的高校项目、期刊、会议、教程与经典教材精选索引。
 - [AIML-SIG/awesome-ai-ml-pharmacometrics](https://github.com/AIML-SIG/awesome-ai-ml-pharmacometrics) `(Markdown)` — 聚焦 AI/ML 在定量药理、PBPK 与 QSP 中应用的社区精选文献与开源资源列表。
-- [MasterDGL/admet-literature](https://github.com/MasterDGL/admet-literature) `(Markdown | 中英)` — 系统梳理 AI 药物发现中 ADMET 与药代动力学性质预测的论文、数据集与方法笔记。
 
 ---
 

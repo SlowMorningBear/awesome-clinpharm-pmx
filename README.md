@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> A curated, problem-oriented, multi-lingual directory of open-source GitHub repositories for **Clinical Pharmacokinetics (Clin. Pharm.)**, **Pharmacometrics (PMx)**, and **AI × ClinPharm/PMx**, spanning English, Chinese, Japanese, Korean, German, French, Spanish, Portuguese, and Italian ecosystems (v2.0: **343** verified repositories, zero duplicates).
+> A curated, problem-oriented, multi-lingual directory of open-source GitHub repositories for **Clinical Pharmacokinetics (Clin. Pharm.)**, **Pharmacometrics (PMx)**, and **AI × ClinPharm/PMx**, spanning English, Chinese, Japanese, Korean, German, French, Spanish, Portuguese, and Italian ecosystems (v2.0: **335** verified repositories, zero duplicates).
 
 ---
 
@@ -46,22 +46,19 @@
 - [nlmixr2/babelmixr2](https://github.com/nlmixr2/babelmixr2) `(R)` — Cross-engine bridge translating `nlmixr2`/`rxode2` models to NONMEM, Monolix, PKNCA, and PopED.
 - [nlmixr2/nonmem2rx](https://github.com/nlmixr2/nonmem2rx) `(R/C)` — Parses and converts NONMEM control streams and outputs into `rxode2` or `nlmixr2` models.
 - [nlmixr2/monolix2rx](https://github.com/nlmixr2/monolix2rx) `(R/C)` — Imports and translates Monolix `.mlxtran` models and results into `rxode2`/`nlmixr2` objects.
-- [Andy0000000000/nonmem2mrgsolve](https://github.com/Andy0000000000/nonmem2mrgsolve) `(R)` — Translates NONMEM control streams—including full and QSS TMDD models—into fast `mrgsolve` simulation code.
 - [UUPharmacometrics/assemblerr](https://github.com/UUPharmacometrics/assemblerr) `(R)` — Programmatically constructs pharmacometric models from R building blocks and compiles them into NONMEM control streams.
 - [certara/R-Certara](https://github.com/certara/R-Certara) `(R)` — Meta-package and installer unifying Certara's open-source pharmacometric R packages and Shiny apps.
-- [certara/R-RsNLME](https://github.com/certara/R-RsNLME) `(R)` — Scriptable tidyverse-style R interface for running the Phoenix NLME estimation engine.
-- [certara/R-RsNLME-model-builder](https://github.com/certara/R-RsNLME-model-builder) `(R/Shiny)` — Interactive Shiny GUI for building NLME models while live-generating reproducible PML and `RsNLME` code.
+- [certara/R-RsNLME-Examples](https://github.com/certara/R-RsNLME-Examples) `(R)` — Scriptable tidyverse-style R interface for running the Phoenix NLME estimation engine.
 - [MarcLavielle/Rsmlx](https://github.com/MarcLavielle/Rsmlx) `(R)` — Automates Monolix model building, statistical covariate search, and convergence assessment from R.
 - [tsahota/NMproject](https://github.com/tsahota/NMproject) `(R)` — Turns RStudio into an integrated, script-based NONMEM model development environment with piped workflows.
 - [dpastoor/nonmemutils](https://github.com/dpastoor/nonmemutils) `(Go)` — Fast Go CLI utilities for parsing NONMEM `.lst` output files and managing run submissions.
 - [Robterheine/nmgui2](https://github.com/Robterheine/nmgui2) `(Python/PyQt6)` — Cross-platform PyQt6 desktop GUI (Pirana alternative) for browsing, comparing, and running NONMEM + PsN workflows.
-- [OpenPKPD/OpenPKPD](https://github.com/OpenPKPD/OpenPKPD) `(Python)` — Open-source Python platform for migrating NONMEM workflows with `.ctl` control-stream parsing.
 - [a2-ai/slurmtools](https://github.com/a2-ai/slurmtools) `(R)` — R utilities for submitting, monitoring, and managing Slurm HPC jobs directly from R.
 - [billdenney/Pharmacometrics-Docker](https://github.com/billdenney/Pharmacometrics-Docker) `(Docker)` — Community Dockerfiles for reproducible multi-version NONMEM and PsN deployments.
 - [kinginsun/nonmem](https://github.com/kinginsun/nonmem) `(Docker/Shell)` — Cross-platform Docker setup and wrapper scripts for NONMEM, PsN, and MPICH parallel execution.
 - [FelicienLL/runnonmem](https://github.com/FelicienLL/runnonmem) `(R)` — Lightweight R wrapper for invoking NONMEM directly from R scripts.
 - [s0521/nonmem_cn](https://github.com/s0521/nonmem_cn) `(TS | Chinese)` — VS Code extension for NONMEM control files with syntax highlighting, snippets, and bilingual CN/EN tooltips.
-- [vrognas/nmtran](https://github.com/vrognas/nmtran) `(TS)` — VS Code extension delivering language intelligence, diagnostics, and hover docs for NMTRAN/NONMEM.
+- [vrognas/vrognas-nmtran](https://github.com/vrognas/vrognas-nmtran) `(TS)` — VS Code extension delivering language intelligence, diagnostics, and hover docs for NMTRAN/NONMEM.
 - [UUPharmacometrics/vim-nonmem](https://github.com/UUPharmacometrics/vim-nonmem) `(Vim)` — Dedicated Vim/Neovim syntax highlighting plugin for editing NONMEM control streams.
 - [nmusers/nm-mode](https://github.com/nmusers/nm-mode) `(Emacs Lisp)` — Minimalist Emacs major mode providing syntax highlighting and editing support for NONMEM.
 - [TingjieGuo/MINGA](https://github.com/TingjieGuo/MINGA) `(Hugo/Shell | Chinese)` — Chinese-language installation guide and shell scripts for NONMEM, PsN, Pirana, and R PMx tools.
@@ -151,12 +148,9 @@
 - [UUPharmacometrics/xpose4](https://github.com/UUPharmacometrics/xpose4) `(R)` — Classic NONMEM model-building aid providing lattice-based GOF diagnostics, VPCs, and covariate screening plots.
 - [nlmixr2/xpose.nlmixr2](https://github.com/nlmixr2/xpose.nlmixr2) `(R)` — Bridges `nlmixr2` fit objects into standard `xpose` databases (`xpdb`) for GOF diagnostics.
 - [nlmixr2/nlmixr2plot](https://github.com/nlmixr2/nlmixr2plot) `(R)` — Native `ggplot2`-based diagnostic and visual predictive check plotting routines for `nlmixr2`.
-- [certara/R-Xpose-NLME](https://github.com/certara/R-Xpose-NLME) `(R)` — Creates `xpose` database (`xpdb`) objects directly from `Certara.RsNLME` and Phoenix NLME outputs.
 - [ggPMXdevelopment/ggPMX](https://github.com/ggPMXdevelopment/ggPMX) `(R)` — Standardized ISoP-aligned GOF diagnostic plotting and reporting across Monolix, NONMEM, and `nlmixr2`.
 - [metrumresearchgroup/pmplots](https://github.com/metrumresearchgroup/pmplots) `(R)` — Standardized, publication-ready exploratory and goodness-of-fit diagnostic plots for pharmacometrics.
 - [certara/tidyvpc](https://github.com/certara/tidyvpc) `(R)` — Fast `data.table`-backed VPC engine supporting binned/binless (AQR/LOESS) VPCs, pcVPC, and BLQ censoring.
-- [certara/R-VPCResults](https://github.com/certara/R-VPCResults) `(R/Shiny)` — Interactive Shiny app built on `tidyvpc` to customize and export reproducible VPC code for NONMEM and NLME.
-- [certara/R-ModelResults](https://github.com/certara/R-ModelResults) `(R/Shiny)` — Interactive Shiny GUI for generating customizable GOF plots and tables with exportable `xpose`/`flextable` code.
 - [ronkeizer/vpc](https://github.com/ronkeizer/vpc) `(R)` — Flexible R package for continuous, categorical, and time-to-event Visual Predictive Checks across platforms.
 - [UUPharmacometrics/ncappc](https://github.com/UUPharmacometrics/ncappc) `(R)` — Simulation-based posterior predictive check (PPC) evaluating PopPK/PD models via NCA exposure metrics.
 - [pharmetheus/PMXForest](https://github.com/pharmetheus/PMXForest) `(R)` — Automated covariate forest plots with uncertainty directly from NONMEM `.cov`, PsN bootstrap, or SIR outputs.
@@ -165,7 +159,7 @@
 - [Novartis/xgxr](https://github.com/Novartis/xgxr) `(R)` — Novartis exploratory graphics (`ggplot2`) helpers for reproducible PK/PD and exposure-response plotting.
 - [metrumresearchgroup/pmtables](https://github.com/metrumresearchgroup/pmtables) `(R)` — Publication- and submission-grade LaTeX summary table generator tailored for pharmacometric reports.
 - [certara/pmxpartabc](https://github.com/certara/pmxpartabc) `(R)` — Parses NONMEM run directories and YAML specs to generate clean, report-ready parameter estimate tables.
-- [philipdelff/tracee](https://github.com/philipdelff/tracee) `(R)` — Automates saving plots and tables with embedded source-script paths and timestamps for regulatory traceability.
+- [NMautoverse/tracee](https://github.com/NMautoverse/tracee) `(R)` — Automates saving plots and tables with embedded source-script paths and timestamps for regulatory traceability.
 - [kylebaron/mrgsim.sa](https://github.com/kylebaron/mrgsim.sa) `(R)` — Local and graphical parameter sensitivity analysis extension for `mrgsolve` PK/PD and QSP models.
 - [nlmixr2/nlmixr2rpt](https://github.com/nlmixr2/nlmixr2rpt) `(R)` — YAML-driven automated Microsoft Word and PowerPoint report generator for `nlmixr2` model fits.
 - [john-harrold/ruminate](https://github.com/john-harrold/ruminate) `(R/Shiny)` — Modular Shiny PMx workbench combining data wrangling, PKNCA, `rxode2` simulation, and Word/PPT/Excel reporting.
@@ -393,7 +387,6 @@
 - [karneslab/warfarin-machinelearning](https://github.com/karneslab/warfarin-machinelearning) `(R)` — Machine learning scripts predicting stable warfarin maintenance doses using pharmacogenetic and clinical covariates.
 - [lucis-e/PopPBPK-RL_Bnzpril](https://github.com/lucis-e/PopPBPK-RL_Bnzpril) `(Python/R)` — Integrates population PBPK with reinforcement learning to optimize benazepril dosing in renal-impaired cohorts.
 - [FatemehRabie/chemotherapy](https://github.com/FatemehRabie/chemotherapy) `(Python)` — Couples a 3D tumor PDE simulator with Gymnasium/SB3 for physics-guided deep RL of personalized chemotherapy dosing.
-- [sumanabasu/On-the-Challenges-of-using-Reinforcement-Learning-in-Precision-Drug-Dosing-Delay-and-Prolongedness](https://github.com/sumanabasu/On-the-Challenges-of-using-Reinforcement-Learning-in-Precision-Drug-Dosing-Delay-and-Prolongedness) `(Python)` — Benchmarks delayed and prolonged PK/PD drug-action challenges when applying RL to precision drug dosing.
 - [ZhiGroup/PK-RNN](https://github.com/ZhiGroup/PK-RNN) `(Python)` — Recurrent neural network (PK-RNN-V) leveraging longitudinal EHR dosing/lab records for vancomycin TDM forecasting.
 - [BingyuMao/vanco_2cm](https://github.com/BingyuMao/vanco_2cm) `(Python)` — Hybrid autoregressive RNN + mechanistic 2-compartment PK head (PKRNN-2CM) for interpretable vancomycin forecasting.
 - [Yunwoolee17/Vancomycin_prediction_AI](https://github.com/Yunwoolee17/Vancomycin_prediction_AI) `(Python | Korea)` — ML pipeline with SHAP explainability predicting initial vancomycin doses to achieve target AUC (400–600 mg·h/L).
@@ -440,7 +433,6 @@
 - [mindrank-ai/PharmaBench](https://github.com/mindrank-ai/PharmaBench) `(Python/Data)` — Cleaned, LLM-mined ADMET and PK property benchmark suite covering absorption, PPB, BBB, CYP, and clearance.
 - [isop-phmx/awesome-pharmacometrics](https://github.com/isop-phmx/awesome-pharmacometrics) `(Markdown)` — ISoP-maintained directory of pharmacometrics university programs, journals, conferences, tutorials, and textbooks.
 - [AIML-SIG/awesome-ai-ml-pharmacometrics](https://github.com/AIML-SIG/awesome-ai-ml-pharmacometrics) `(Markdown)` — Curated community list of AI/ML papers, tools, and resources for pharmacometrics, PBPK, and QSP.
-- [MasterDGL/admet-literature](https://github.com/MasterDGL/admet-literature) `(Markdown | CN/EN)` — Curated bilingual literature and benchmark dataset index for AI-driven ADMET and PK property prediction.
 
 ---
 
